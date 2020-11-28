@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  border: 1px solid black;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+.button-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.button-div > button {
+  width: 100px;
+  height: 5vh;
+  border-radius: 10px;
+}
+.list {
+  width: 100px;
+  border-radius: 10px;
+  background-color: aquamarine;
+}
+.yellow {
+  background-color: yellow;
+  color: black;
+}
+.blue {
+  background-color: blue;
+  color: white;
+}
+.red {
+  background-color: red;
+  color: white;
+}

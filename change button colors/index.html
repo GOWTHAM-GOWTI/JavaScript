@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Challenge 3: Change the color of all buttons</h1>
+
+      <form action="">
+        <div class="flex-box">
+          <select
+            class="list"
+            name="color"
+            id="clr"
+            onchange="changeColor(this)"
+          >
+            <option value="random">Random</option>
+            <option value="yellow">Yellow</option>
+            <option value="blue">Blue</option>
+            <option value="red">Red</option>
+            <option value="reset">Reset</option>
+          </select>
+          <div class="button-div">
+            <button class="yellow" id="yellow">Google</button>
+            <button class="blue" id="blue">Facebook</button>
+            <button class="red" id="red">YouTube</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

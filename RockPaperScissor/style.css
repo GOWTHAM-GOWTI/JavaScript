@@ -1,0 +1,21 @@
+.container{
+    border: 1px solid black;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rps-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.rps-box img:hover{
+    box-shadow: 0px 0px 30px black;
+}
